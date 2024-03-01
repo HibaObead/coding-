@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+
+}
+
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    background: black;
+    padding: 0 20px;
+}
+
+.nav {
+    max-width: 1100px;
+    width: 100%;
+    background: #000000;
+    margin: 0 auto;
+}
+
+.nav,
+.nav_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav_item {
+    column-gap: 25px;
+}
+
+.nav-link:hover {
+    color: #bd7ee2;
+}
+
+.nav-link,
+.nav-logo,
+.button {
+    color: #dabceb;
+}
+
+.button {
+    padding: 6px 24px;
+    border: 2px solid #dabceb;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+/*HOME SECTION*/
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://wallpapercave.com/wp/wp6223534.jpg");
+}
+
+/*form section*/
+.form_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+}
